@@ -1,0 +1,32 @@
+{
+  "name": "dh-clase-0412221",
+  "version": "1.0.0",
+  "description": "Clase extra",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andreybejarano/dh-clase-0412221.git"
+  },
+  "keywords": [
+    "clase",
+    "extra",
+    "git",
+    "node",
+    "npm"
+  ],
+  "author": "Erik Andrey Bejarano Sanchez <andreybejarano@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreybejarano/dh-clase-0412221/issues"
+  },
+  "homepage": "https://github.com/andreybejarano/dh-clase-0412221#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
