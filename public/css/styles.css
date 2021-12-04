@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 10rem;
+}
+
+.container-fluid {
+    margin: 0;
+}
+
+header,
+footer {
+  background: yellow;
+}
+
+.btn-login {
+
+}
+
+.txt-user {
+
+}
+
+.wrap-menu-icon {
+  position: relative;
+  background: blue;
+  width: 30px;
+  height: 30px;
+}
+
+.dg-menu {
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.content {
+}
+
+.container-img {
+  width: 300px;
+}
+
+@media (max-width: 460px) {
+  .container-img {
+    width: 200px;
+  }
+}
+
+.container-img > img {
+  width: inherit;
+}
