@@ -55,3 +55,19 @@ footer {
 .container-img > img {
   width: inherit;
 }
+
+.amount {
+  font-size: 2rem;
+  color: green;
+}
+
+.amount::before {
+  content: '$';
+  font-size: 1rem;
+  color: red;
+}
+
+.amount::after {
+  content: '.00';
+  color: blue;
+}
