@@ -13,7 +13,7 @@ app.get('/about', (req, res) => {
     return res.sendFile(path.resolve(__dirname, 'views/about.html'));
 });
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Server started on port: ${port}`);
 })
